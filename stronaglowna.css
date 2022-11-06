@@ -1,0 +1,80 @@
+:root {
+    --bg-color: #322A35;
+    --orange: #ff7b25;
+    --red: #d64161;
+    --post-color: #433D61;
+}
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    background-color:var(--bg-color);
+    color:white;
+}
+h1{
+    color:var(--orange);
+    margin-left:10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:var(--orange);
+}
+li {
+    float: left;
+  }
+li a {
+    font-weight:600;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+li a:hover {
+    background-color:#e9650e;
+  }
+.aktywna {
+    background-color:var(--red);
+  }
+.posty{
+    border-style: solid;
+    border-color:var(--post-color);
+    background-color:var(--post-color);
+    border-radius: 10px;
+    display:block;
+    width:70%;
+    float:left;
+    
+}
+.postya{
+    border-style: solid;
+    border-color:var(--post-color);
+    background-color:var(--post-color);
+    border-radius: 10px;
+    float:right;
+    display:block;
+    width:29%;
+    
+}
+.tekst{
+    margin-left:30px;
+    margin-right:30px;
+}
+.abc a{
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+a.abc:visited{
+    color: var(--orange);
+    background-color: transparent;
+    text-decoration: none;
+}
+a.abc:hover {
+    color: var(--red);
+    background-color: transparent;
+    text-decoration: underline;
+}
